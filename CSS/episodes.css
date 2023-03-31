@@ -1,0 +1,111 @@
+body {
+    background-color: #000000;
+  }
+  
+  p {
+    color: rgb(255, 255, 255);
+  }
+  p:hover{
+    color: #000;
+
+  }
+  
+
+.btn{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51,51,51, 0.5);
+}
+.btn {
+    position: sticky;
+    padding: auto;
+    top: -80px;
+    right: 0;
+    
+
+    transform: translateY(-50%);
+    transform: translateX(-5%);
+    /* Other button styles here */
+  }
+.btn:hover{
+    color:#000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+
+}
+
+
+.style{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: rgb(253, 247, 247);
+    font-weight: 700;
+    font-size:30px;
+
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51,51,51, 0.5);
+}
+.stlye {
+    position: absolute;
+    border-color:  #e6e6e6;
+    width: 500px;
+    text-align: left;
+    top: 70%;
+    right: 0;
+    transform: translateY(-70%);
+    transform: translateX(-5%);
+    /* Other button styles here */
+  }
+.style:hover{
+    color:#000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+    border-color: #000;
+
+}
+
+.stlye::after:hover{
+
+        transition-property: none;
+      }
+.stlye[open] > * {
+    transition: none;
+
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("");
+
+ 
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
